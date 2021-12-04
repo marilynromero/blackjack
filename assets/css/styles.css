@@ -6,10 +6,19 @@ html, body {
     font-size: 25px;
 }
 
-
-
 .titulo {
     text-align: center;
     background-color: black;
     color: white;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+}
+
+#jugador-cartas, #computadora-cartas {
+    height: 240px;
 }
