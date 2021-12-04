@@ -1,0 +1,15 @@
+html, body {
+    margin: 0px;
+    background-color: #2F4F30;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
