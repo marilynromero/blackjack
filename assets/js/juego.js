@@ -136,13 +136,13 @@ const miModulo = (() => {
         crearCarta(carta, 0);
 
 
-        if ( puntosJugador > 21 ){
+        if ( puntosJugadores > 21 ){
             console.warn('Lo siento mucho, perdiste');
             btnPedir.disabled = true;
             btnDetener.disabled = true;
             turnoComputadora(puntosJugador);
-        } else if ( puntosJugador === 21) {
-            console.warn('21, genial!');
+        } else if ( puntosJugadores === 21) {
+            console.warn('¡Ganaste!');
             btnPedir.disabled = true;
         }
 
