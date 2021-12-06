@@ -137,12 +137,12 @@ const miModulo = (() => {
 
 
         if ( puntosJugadores > 21 ){
-            console.warn('Lo siento mucho, perdiste');
+            console.alert('Lo siento mucho, perdiste');
             btnPedir.disabled = true;
             btnDetener.disabled = true;
             turnoComputadora(puntosJugador);
         } else if ( puntosJugadores === 21) {
-            console.warn('¡Ganaste!');
+            console.alert('¡Ganaste!');
             btnPedir.disabled = true;
         }
 
